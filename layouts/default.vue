@@ -9,6 +9,9 @@
 <style lang="sass">
     \:root
         --brand: #FF6801
+        
+    .font-decorative
+        font-family: 'Courier New', Courier, monospace
 
     .text-brand
         color: var(--brand)
