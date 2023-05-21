@@ -17,21 +17,30 @@
                     #agile #git #github #visualstudio #sass #scss #nuxt #pinia
                 </p>
 
-                <div class="flex items-center justify-center">
+                <div class="lg:flex items-center justify-center">
                     <a href="/pdf/cv.pdf" class="font-semibold text-brand text-xl mr-2 cursor-pointer" download>
                         { <Icon name="bx:file" class="mr-1"></Icon>cv }
                     </a>
+
+                    <br class="block lg:hidden" />
+                    
                     <span @click="store.active = 2" class="font-semibold text-brand text-xl mr-2 cursor-pointer">
                         { <Icon name="bx:question-mark" class="mr-1"></Icon>über mich }
                     </span>
+
+                    <br class="block lg:hidden" />
 
                     <span @click="store.active = 3" class="font-semibold text-brand text-xl mr-2 cursor-pointer">
                         { <Icon name="bx:award" class="mr-1"></Icon>erfahrung }
                     </span>
 
+                    <br class="block lg:hidden" />
+
                     <span @click="store.active = 4" class="font-semibold text-brand text-xl mr-2 cursor-pointer">
                         { <Icon name="bx:code-alt" class="mr-1"></Icon>projekte }
                     </span>
+
+                    <br class="block lg:hidden" />
 
                     <a href="https://calendly.com/stefanschuchlenz/disco" target="_BLANK" class="font-semibold text-brand text-xl mr-2 cursor-pointer">
                         { <Icon name="bx:chat" class="mr-1"></Icon>kontakt }
